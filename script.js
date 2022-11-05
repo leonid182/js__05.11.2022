@@ -1,30 +1,10 @@
-const gender = 'муж';
-let age;
+let a=0;
+const b =10;
+let c = '';
 
 
-if(!isNaN(+age)){
-    if(age>18){
-        console.log('вам больше 18')
-    }else if (age<18){
-        console.log('вам меньше 18')
+    while (a<b) {
+        a++
+        c+=`${a}${a !==b?',':''}`
     }
-    else{
-        console.log('вам 18')
-    }
-}else{
-    console.log('введите данные');
-}
-
-
-
-
-if(gender.toLocaleLowerCase()==='муж'){
-    console.log('Вам налево')
-}
-if(gender.toLocaleLowerCase()==='жен'){
-    console.log('Вам направо')
-}
-
-const isAdmin = true;
-
-console.log(`Welcome ${isAdmin?'Admin':'User'}`);
+    console.log(c);
