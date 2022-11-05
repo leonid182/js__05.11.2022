@@ -24,3 +24,7 @@ if(gender.toLocaleLowerCase()==='муж'){
 if(gender.toLocaleLowerCase()==='жен'){
     console.log('Вам направо')
 }
+
+const isAdmin = true;
+
+console.log(`Welcome ${isAdmin?'Admin':'User'}`);
