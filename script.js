@@ -2,15 +2,20 @@ const gender = 'муж';
 let age;
 
 
-if(age>18){
-    console.log('вам больше 18')
-}else if (age<18){
-    console.log('вам меньше 18')
-}else if(age===undefined){
-    console.log('введите возраст')
+if(!isNaN(+age)){
+    if(age>18){
+        console.log('вам больше 18')
+    }else if (age<18){
+        console.log('вам меньше 18')
+    }
+    else{
+        console.log('вам 18')
+    }
 }else{
-    console.log('вам 18')
+    console.log('введите данные');
 }
+
+
 
 
 if(gender.toLocaleLowerCase()==='муж'){
