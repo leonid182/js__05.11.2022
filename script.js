@@ -1,17 +1,10 @@
-let a = 'manager' //admin, manager
+let i;
 
-switch (a) {
-    case 'user':
-        console.log('Who the hell are you?');
-        break;
-    case 'admin':
-        console.log('Welcome,sir');
-        break;
-    case 'manager':
-        console.log('Please order, my Lord!');
-        break;
 
-    default:
-        console.log('Name yourself');
-        break;
-}
+
+   for(let i=1; i<5;i++){
+    console.log("Вывести в консоль заданную строку N раз");
+   }
+    
+
+
