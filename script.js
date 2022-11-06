@@ -1,10 +1,7 @@
-let a=0;
-const b =10;
-let c = '';
+let a=10;
+let b=20;
+let c=30;
+
+ (a>b&&a>c)? alert(a): (b>a&&b>c)? alert(b):alert(c);
 
 
-    while (a<b) {
-        a++
-        c+=`${a}${a !==b?',':''}`
-    }
-    console.log(c);
