@@ -1,8 +1,13 @@
-let a='1';
+let test = true;
 
-if(a===1){
-    console.log('Верно');
-}else{
-    console.log('incorrect');
-}
+// if(test == true){
+//     console.log('correct');
+// }else{
+//     console.log('incorrect');
+// }
+
+
+test == true ? console.log('correct') : console.log('incorrect');
+
+
 
