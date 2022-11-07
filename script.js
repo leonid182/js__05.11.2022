@@ -1,29 +1,19 @@
-let a =3;
-let b =5;
+let num =3;
 
-// if(a>0&&a<5){
-//     console.log('correct');
-// }else{
-//     console.log('incorrect');
-// }
+switch (num) {
+    case 1:
+        console.log('winter');
+        break;
+    case 2:
+        console.log('spring');
+        break;
+    case 3:
+        console.log('summer');
+        break;
+    case 4:
+        console.log('autumn');
+        break;
 
-
-// if(a==0|| a==2){
-//     console.log(a+7);
-// }else{
-//     console.log(a/10);
-// }
-
-
-if(a<=1 && b>=3){
-    console.log(a+b);
-}else{
-    console.log(a-b);
+    default:
+        break;
 }
-
-
-
-
-
-
-
