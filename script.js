@@ -1,10 +1,8 @@
-let i;
+let a='1';
 
-
-
-   for(let i=1; i<5;i++){
-    console.log("Вывести в консоль заданную строку N раз");
-   }
-    
-
+if(a===1){
+    console.log('Верно');
+}else{
+    console.log('incorrect');
+}
 
